@@ -17,6 +17,7 @@ public class SistemaGestionEstudiantes {
         Estudiante estudiante = new Estudiante("C5L225", "Dylan", "dylan.zunigaaraya@ucr.ac.cr");
         Curso curso = new Curso("TM2100", "Fundamentos de Programacion");
         System.out.println(estudiante.mostrarInformacion());
+        System.out.println("Carnet valido: " + estudiante.carnetValido());
         System.out.println(curso.mostrarInformacionCurso());
     }
     

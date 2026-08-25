@@ -31,6 +31,9 @@ public class Estudiante {
         return correo;
     }
     
+    public boolean carnetValido(){
+        return carnet != null && !carnet.isBlank();
+    }
     
     public String mostrarInformacion(){
         
