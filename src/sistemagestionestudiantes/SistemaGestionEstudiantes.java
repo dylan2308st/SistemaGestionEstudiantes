@@ -14,7 +14,7 @@ public class SistemaGestionEstudiantes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Estudiante estudiante = new Estudiante("C5L225", "Dylan");
+        Estudiante estudiante = new Estudiante("C5L225", "Dylan", "dylan.zunigaaraya@ucr.ac.cr");
         
         System.out.println(estudiante.mostrarInformacion());
     }
